@@ -1,0 +1,15 @@
+
+P
+java:S1118":Add a private constructor to hide the implicit public one.(–ûÆ¹
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢”²˜
+O
+java:S3400	"9Remove this method and declare a constant for this value.(”·³›
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤³˜ƒ
+_
+java:S1854"=Remove this useless assignment to local variable "RandomNum".(ø¥–«ıÿÿÿÿ8ÿ²›úÃ/
+P
+java:S1481".Remove this unused "RandomNum" local variable.(ø¥–«ıÿÿÿÿ8„³›úÃ/
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø¥–«ıÿÿÿÿ8„³›úÃ/
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ÓŸøÿÿÿÿ8Ÿõ–úÃ/
+‚
+java:S1488"`Immediately return this expression instead of assigning it to the temporary variable "Response".(×ÓŸøÿÿÿÿ8¢õ–úÃ/
