@@ -1,0 +1,11 @@
+
+n	java:S116"TRename this field "FirstName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä¹óûþÿÿÿÿ
+h	java:S116"SRename this field "LastName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òÃ¬î
+m	java:S116	"SRename this field "Zip_Code" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡ð¿êüÿÿÿÿ
+g	java:S116
+"MRename this field "ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ•ÆŽþÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Áˆµæ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Áˆµæ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Áˆµæ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Áˆµæ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÎÿúŽùÿÿÿÿ
