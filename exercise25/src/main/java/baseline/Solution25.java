@@ -5,7 +5,7 @@ package baseline;
  *  Copyright 2021 Emanuel_Padro
  */
 
-//needs to check if les than or more than 8 char
+//needs to check if less than or more than 8 char
 
 //needs to check if only letters and only numbers
 
@@ -19,8 +19,6 @@ point system that actually evaluates a passwords strength but to instead put it 
 kinda dumb but i don't make the exercises
 if it does not comply with these categories then its unknown strength
 */
-
-//QQQQQ: The whole symbol system shit annoying any way for me to find a database explaining that??
 
 public class Solution25 {
     public static void main(String[] args) {
