@@ -1,2 +1,4 @@
 baseline/Solution24.java
  baseline.Solution24
+baseline/Solver24.java
+ baseline.Solver24
