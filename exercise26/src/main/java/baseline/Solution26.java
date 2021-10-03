@@ -21,7 +21,7 @@ class Details
     }
 }
 
-public class PaymentCalculator {
+public class Solution26 {
     //This method will calculate the months until the ammount is paid off when given the details of a person
     public static int calculateMonthsUntilPaidOff(Details person1)
     {
@@ -54,7 +54,7 @@ public class PaymentCalculator {
     {
         Details person1 = CollectInput();
 
-        int calculateMonthsUntilPaidOff = PaymentCalculator.calculateMonthsUntilPaidOff(person1);// or this
+        int calculateMonthsUntilPaidOff = Solution26.calculateMonthsUntilPaidOff(person1);// or this
         System.out.println("it will take you " + calculateMonthsUntilPaidOff + " months to pay off this card");
     }
 }
