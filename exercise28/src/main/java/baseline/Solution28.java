@@ -1,25 +1,29 @@
 package baseline;
 
-/*
- *  UCF COP3330 Fall 2021 Assignment 3 Solutions
- *  Copyright 2021 Emanuel_Padro
- */
+import java.util.Scanner;
 
-
-//ADD Nums
-
+//only ended up needed a single method to complete this
 public class Solution28 {
+    public static double addloop(){//declared as double to support decimal numbers as well as ints
+        Scanner input = new Scanner(System.in);
+        //create a rray to store numbers
+        double [] nums = new double[5];
+        double sum = 0;
 
-    //This method gets user input in a loop, the loop will keep repeating
-    // and adding number to an array until there are 6 numbers in array
-    public static void getInput(){
-
+        //loop that adds the number to the array each time and keeps going til filled in
+        for( int i = 0 ; i < 5; i++ )
+        {
+            System.out.println("Enter a number: ");
+            nums[i] = input.nextDouble();
+            System.out.println(nums[i]);
+            sum = sum + nums[i];
+        }
+        return sum;
     }
 
-
-    //main is main
     public static void main(String[] args) {
-        getInput();
-        //Call solver for printing its count
+        double addloop = addloop();
+        System.out.println("The total is " + addloop);
+
     }
 }
