@@ -2,6 +2,12 @@ package baseline;
 
 import java.util.Scanner;
 
+/*
+ *  UCF COP3330 Fall 2021 Assignment 3 Solutions
+ *  Copyright 2021 Emanuel_Padro
+ */
+
+
 public class Solution29 {
     public static double Input(){
         Scanner input = new Scanner(System.in);
