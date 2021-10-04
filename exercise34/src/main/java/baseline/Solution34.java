@@ -5,15 +5,47 @@ package baseline;
  *  Copyright 2021 Emanuel_Padro
  */
 
+import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Solution34 {
 
-    public static void Input_Handler(){
-        //Will prompt user for input then call solver depending on given user input
+    //Generates the list
+    static ArrayList<String> ListGenerator(){
+        ArrayList<String> Employees = new ArrayList<>();
+
+        Employees.add("John Smith");
+        Employees.add("Jackie Jackson");
+        Employees.add("Chris Jones");
+        Employees.add("Amanda Cullen");
+        Employees.add("Jeremy Goodwin");
+
+        System.out.println("There are 5 employees: ");
+
+        for (String employee : Employees) {
+            System.out.println(employee);
+        }
+
+        return Employees;
     }
 
-    //main will handle requests
-    public static void main(String[] args) {
-        Solver.PrintList();//initial print of list
+    //method that removes the employee from the list
+    private static void RemoveEmployee(ArrayList<String> Employees) {
+        Scanner scanner= new Scanner(System.in);
+        System.out.print("Enter an employee name to remove: ");
+        String RemoveName = scanner.nextLine();
+        Employees.remove(RemoveName);
+
+        System.out.println("\n");
+        for (String employee : Employees) {
+            System.out.println(employee);
+        }
+
     }
+
+    public static void main(String[] args) {
+        ArrayList<String> Employees = ListGenerator();
+        RemoveEmployee(Employees);
+    }
+
 }
