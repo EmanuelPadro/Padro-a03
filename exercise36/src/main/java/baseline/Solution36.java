@@ -1,30 +1,41 @@
 package baseline;
 
+import java.util.Scanner;
+
 /*
  *  UCF COP3330 Fall 2021 Assignment 3 Solutions
  *  Copyright 2021 Emanuel_Padro
  */
 
 
-
 public class Solution36 {
+    //handles all input
+    static void Input(){
+        Scanner scanner = new Scanner(System.in);
+        String Input;
 
-    //Using a loop for user input and send it to solver class list, will ask until done is typed
-    //it will then print out the numbers in that array
-    public static void getInput(){
-
+        do{
+            System.out.print("Enter a number: ");
+            Input = scanner.next();
+            if(!Input.equals("done")) {
+                Statistics.ResponseTimes.add(Double.parseDouble(Input));
+            }
+        }while(!Input.equals("done"));
+    }
+    //prints everything
+    static void Printer(){
+        System.out.print("Numbers: ");
+        for(int i =0; i < Statistics.ResponseTimes.size();i++){
+            System.out.print(Statistics.ResponseTimes.get(i) + ",");
+        }
+        System.out.println("\nThe average is " + Statistics.average());
+        System.out.println("The minimum is " + Statistics.minimum());
+        System.out.println("The maximum is " + Statistics.max());
+        System.out.println("The standard deviation is " + Statistics.Std());
     }
 
-    public static void Print(){
-        //will have a line that has a statement and prints out corresponding value by calling solver
-    }
-
-
-    //main is main
     public static void main(String[] args) {
-        getInput();
-        Print();
-
-
+        Input();
+        Printer();
     }
 }
