@@ -1,8 +1,18 @@
 package baseline;
 
+/*
+ *  UCF COP3330 Fall 2021 Assignment 3 Solutions
+ *  Copyright 2021 Emanuel_Padro
+ */
+
 import java.util.Scanner;
 
-public class App35 {
+/*
+ *  UCF COP3330 Fall 2021 Assignment 3 Solutions
+ *  Copyright 2021 Emanuel_Padro
+ */
+
+public class Solution35 {
 
     static void Input(){
         Scanner scanner = new Scanner(System.in);
