@@ -1,0 +1,19 @@
+
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯ÛÛ şÿÿÿÿ
+>
+java:S2140")Use "java.util.Random.nextInt()" instead.(•À!
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ—´¼ÿÿÿÿÿ
+c	java:S1000"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­¤²è
+D
+java:S1121".Extract the assignment out of this expression.(ğ‡¾
+D
+java:S1121".Extract the assignment out of this expression.(ÖõŞ—
+I
+java:S1121".Extract the assignment out of this expression.(ûœ¿ñÿÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«’Ü‡
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›ú±éüÿÿÿÿ
+f	java:S117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷Ç¡
+k	java:S117""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õÊşÎûÿÿÿÿ
+f	java:S1171"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×æ¸ã
+k	java:S1174"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ¥éœıÿÿÿÿ
+k	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œì®§ùÿÿÿÿ
