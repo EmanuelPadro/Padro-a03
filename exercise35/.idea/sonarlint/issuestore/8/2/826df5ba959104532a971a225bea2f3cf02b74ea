@@ -1,0 +1,13 @@
+
+m
+java:S3008"RRename this field "Players" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÒˆŠüÿÿÿÿ
+P
+java:S1118":Add a private constructor to hide the implicit public one.(™æ³
+c	java:S100
+"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó€Âà
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºšü”
+?
+java:S2140")Use "java.util.Random.nextInt()" instead.(€“¢à
+f	java:S117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó€Âà
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€“¢à
