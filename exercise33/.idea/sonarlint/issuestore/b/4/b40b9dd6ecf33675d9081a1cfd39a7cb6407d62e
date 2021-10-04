@@ -1,0 +1,9 @@
+
+P
+java:S1118":Add a private constructor to hide the implicit public one.(Ùì½
+h	java:S100	"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ—ÒĞùÿÿÿÿ
+D
+java:S2140")Use "java.util.Random.nextInt()" instead.(ş¾şÿÿÿÿ
+k	java:S117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬°âıÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş¾şÿÿÿÿ
